@@ -1,0 +1,93 @@
+body {
+	/* background-image: url("../images/subtle_white_mini_waves.png"); */
+	background-color: grey;
+}
+
+.row {
+	margin-left: 10px;
+}
+
+#heading {
+	background-color: orange;
+	color: white;
+	margin: 0;
+	width: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+	font-size: 40px;
+}
+
+#info {
+	background-color: #fff2c0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#randomNumBox {
+	background-color: rgba(66, 183, 135, 0.81);
+	margin-right: 10px;
+	height: 80px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#scoreBox {
+	background-color: #00f1ff;
+	height: 80px;
+}
+
+#crystalImg1 {
+	background-image: url("../images/crystal1.jpg");
+	background-size: 100px 80px;
+	
+}
+
+#crystalImg2 {
+	background-image: url("../images/crystal2.jpg");
+	background-size: 100px 80px;
+	
+}
+
+#crystalImg3 {
+	background-image: url("../images/crystal3.jpg");
+	background-size: 100px 80px;
+}
+
+#crystalImg4 {
+	background-image: url("../images/crystal4.jpg");
+	background-size: 100px 80px;
+}
+
+.buttonC {
+	margin-top: 10px;
+	margin-right: 10px;
+	height:100px;
+	width: 100px;
+}
+
+#totalText {
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #4aaaa5;
+	margin-top:10px;
+	color: white;
+}
+
+#total {
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	background-color: #4aaaa5;
+	margin-top:10px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+
+
