@@ -33,10 +33,11 @@ $(document).ready(function(){
 				var val = $(this).attr("data");
 				
 				totalScore+= parseInt(val);
-				$("#total").text(totalScore);
+				$("#totalText").text("Your total score is: "+ totalScore);
 				if (totalScore == randomNumber) {
 					
-					$("#mesg").text("You won!!!");
+					//$("#mesg").text("You won!!!");
+					alert("You won! Micky gets to go home!!!")
 
 					var win = parseInt($("#wins").attr("value"));
 					win++;
@@ -45,7 +46,8 @@ $(document).ready(function(){
 					setup();
 				} else if (totalScore > randomNumber) {
 
-					$("#mesg").text("You Lost!!!");
+					//$("#mesg").text("You Lost!!!");
+					alert("You lost! Keep trying!!!")
 
 					var lose = parseInt($("#losses").attr("value"));
 					lose++;
@@ -61,10 +63,10 @@ $(document).ready(function(){
 				var max=120;
 				var min=19;
 				randomNumber = (Math.floor(Math.random() * (max - min) + min ));
-				$("#randomNum").text(randomNumber);
+				$("#randomNum").text("Target score: " + randomNumber);
 
 				// Display total
-				$("#total").text("0");
+				$("#totalText").text("Your total score is: 0");
 				totalScore = 0;
 
 				// set value for each crystal

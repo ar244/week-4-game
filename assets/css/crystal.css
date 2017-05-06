@@ -1,6 +1,16 @@
 body {
-	/* background-image: url("../images/subtle_white_mini_waves.png"); */
-	background-color: grey;
+	background-image: url("../images/galaxy-wallpaper-11.jpg"); 
+}
+
+.jumbotron {
+	padding: 20px;
+	background-color: transparent;
+
+}
+#heading {
+	align-self: center;
+	text-align: center;
+	width: 100%;
 }
 
 .row {
@@ -8,9 +18,8 @@ body {
 }
 
 #heading {
-	background-color: orange;
+	background-color: black;
 	color: white;
-	margin: 0;
 	width: 350px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -19,14 +28,18 @@ body {
 }
 
 #info {
-	background-color: #fff2c0;
-	margin-top: 10px;
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
 	margin-bottom: 10px;
+	margin-right: 10px;
 
 }
 
 #randomNumBox {
-	background-color: rgba(66, 183, 135, 0.81);
+	background-color: black;
+	color: white;
 	margin-right: 10px;
 	height: 80px;
 	font-size: 20px;
@@ -35,30 +48,39 @@ body {
 }
 
 #scoreBox {
-	background-color: #00f1ff;
-	height: 80px;
+	background-color: black;
+	color:white;
+	height:80px;
 }
 
 #crystalImg1 {
+	width: 210px;
 	background-image: url("../images/crystal1.jpg");
-	background-size: 100px 80px;
+	background-size: 200px 80px;
+	margin-left: 80px;
+	margin-right: 20px;
 	
 }
 
 #crystalImg2 {
+	width: 210px;
 	background-image: url("../images/crystal2.jpg");
-	background-size: 100px 80px;
-	
+	background-size: 200px 80px;
+	margin-right: 20px;
 }
 
 #crystalImg3 {
+	width: 210px;
 	background-image: url("../images/crystal3.jpg");
-	background-size: 100px 80px;
+	background-size: 200px 80px;
+	margin-right: 20px;
 }
 
 #crystalImg4 {
+	width: 210px;
 	background-image: url("../images/crystal4.jpg");
-	background-size: 100px 80px;
+	background-size: 200px 80px;
+	margin-right: 20px;
 }
 
 .buttonC {
@@ -69,25 +91,22 @@ body {
 }
 
 #totalText {
-	width: 200px;
+	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #4aaaa5;
+	background-color: black;
 	margin-top:10px;
 	color: white;
-}
-
-#total {
-	width: 200px;
-	padding-top: 20px;
-	padding-bottom: 70px;
-	background-color: #4aaaa5;
-	margin-top:10px;
-	color: white;
-	font-size: 40px;
 	text-align: center;
-
 }
 
+
+#wins {
+	margin-top: 15px;
+}
+
+#losses {
+	margin-top: 10px;
+}
 
 

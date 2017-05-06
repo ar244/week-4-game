@@ -16,25 +16,34 @@
 
 <body>
 
+	
+
 	<!-- Overall Bootstrap Grid -->
   	<div class="container">
 
     	<!-- Jumbotron with Title -->
-    	</div class = "jumbotron">
+    	<div class = "jumbotron">
+    	
       		<h1 id="heading"><strong>CrystalsCollector!</strong></h1>
+      		
 		</div>
 	
 		<div class="row">
+			<div class="col-md-4" id="pic">
+				<img src="assets/images/Funny_Blue_Cartoon_Mouse.png">
+			</div>
 			<div class="col-md-6" id="info">
-				<p>You will be given a random number at the start of the game. </p>
+				<p>Micky is stuck in space and wants to go home. Help Micky get home safely by collecting crystals. You will be given a random number at the start of the game. This is your target score. </p>
 				
 				<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total.</p>
 				
-				<p>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+				<p>If your total score matches the target score, Micky gets to go home. You lose the game if your total score goes above the random number.</p>
 				
-				<p>The value of each crystal is hidden from you until you click on it</p>
+				<p>The value of each crystal is hidden from you until you click on it.</p>
 				
-				<p>Each time when the game starts, the game will change the value of each crystal</p>
+				<p>Each time, when the game starts, the game will change the value of each crystal.</p>
+
+				<p>!!!Collect crystals and help Micky go home!!!</p>
 				
 				<br>
 			</div>
@@ -42,11 +51,12 @@
 		</div>
 
 		<div class="row">
+			<div class="col-md-3"></div>
 			<div class="col-md-3" id="randomNumBox">
 				<div id="randomNum"></div>
 			</div>
 			<div class="col-md-1" id="scoreBox">
-				<div id = "mesg"></div>
+				
 				<div id="wins" value="0">Wins:</div>
 				<div id="losses" value="0">Losses:</div>
 			</div>
@@ -62,12 +72,13 @@
 		
 
 		<div class="row">
-			<div id="totalText"> Your total score is: </div>
+			<div class="col-md-3"></div>
+			<div class="col-md-6">
+				<div id="totalText"> Your total score is: </div>
+			</div>
+			
 		</div>
 		
-		<div class="row">
-			<div id="total">0</div>
-		</div>
 
 		<script type="text/javascript" src="assets/javascript/game.js"></script>
 
