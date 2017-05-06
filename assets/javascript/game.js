@@ -36,7 +36,8 @@ $(document).ready(function(){
 				$("#totalText").text("Your total score is: "+ totalScore);
 				if (totalScore == randomNumber) {
 					
-					//$("#mesg").text("You won!!!");
+					var sound = document.getElementById("sound");
+					sound.play();
 					alert("You won! Micky gets to go home!!!")
 
 					var win = parseInt($("#wins").attr("value"));
@@ -46,7 +47,8 @@ $(document).ready(function(){
 					setup();
 				} else if (totalScore > randomNumber) {
 
-					//$("#mesg").text("You Lost!!!");
+					var sound = document.getElementById("sound");
+					sound.play();
 					alert("You lost! Keep trying!!!")
 
 					var lose = parseInt($("#losses").attr("value"));
