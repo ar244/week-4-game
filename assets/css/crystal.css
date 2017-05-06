@@ -3,14 +3,7 @@ body {
 }
 
 .jumbotron {
-	padding: 20px;
-	background-color: transparent;
-
-}
-#heading {
-	align-self: center;
-	text-align: center;
-	width: 100%;
+	padding: 10px;
 }
 
 .row {
@@ -54,32 +47,37 @@ body {
 }
 
 #crystalImg1 {
-	width: 210px;
+	width: 200px;
 	background-image: url("../images/crystal1.jpg");
-	background-size: 200px 80px;
+	background-size: 100%;
+	background-position: center;
 	margin-left: 80px;
 	margin-right: 20px;
+
 	
 }
 
 #crystalImg2 {
-	width: 210px;
+	width: 200px;
 	background-image: url("../images/crystal2.jpg");
-	background-size: 200px 80px;
+	background-size: 100%;
+	background-position: center;
 	margin-right: 20px;
 }
 
 #crystalImg3 {
-	width: 210px;
+	width: 200px;
 	background-image: url("../images/crystal3.jpg");
-	background-size: 200px 80px;
+	background-size: 100%;
+	background-position: center;
 	margin-right: 20px;
 }
 
 #crystalImg4 {
-	width: 210px;
+	width: 200px;
 	background-image: url("../images/crystal4.jpg");
-	background-size: 200px 80px;
+	background-size: 100%;
+	background-position: center;
 	margin-right: 20px;
 }
 
